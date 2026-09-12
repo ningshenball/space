@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background: #ff99cc;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+  color: #000;
+}
+.wrap { max-width: 900px; margin: 16px auto; }
+.topbar {
+  background: #000080;
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+.topbar a { color: #ffff00; }
+.layout {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+.left {
+  width: 220px;
+  vertical-align: top;
+  padding: 12px;
+  background: #ffe6f2;
+  border-right: 2px solid #000080;
+}
+.right { vertical-align: top; padding: 12px 16px; }
+.pic { width: 196px; border: 3px solid #000080; }
+h2 {
+  background: #000080;
+  color: #fff;
+  font-size: 16px;
+  padding: 4px 8px;
+}
+.footer { text-align: center; font-size: 12px; }
